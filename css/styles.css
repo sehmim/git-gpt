@@ -1,0 +1,55 @@
+/* Styling for the box-wrapper */
+.box-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the box */
+.box {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the box label */
+.box-label {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Styling for the input fields */
+.input-url,
+.input-text {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styling for the submit button */
+.input-submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Styling for the loading-wrapper */
+.loading-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Styling for the loading text */
+.loading-text {
+  font-size: 16px;
+  color: #666;
+}
